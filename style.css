@@ -1,0 +1,173 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tt{
+    color:black;
+}
+
+
+/*.button:hover{
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+	transition: all 0.4s ease 0s;
+}
+
+.button{
+    color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #60a3bc;
+	padding: 20px;
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}*/
+
+
+#mdp, #mail{
+    width: 250px;
+    height: 30px;
+  
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: black;
+    
+    transition: all 0.7s ease 0s;
+    
+    border: solid 1px #b3aca7;
+    border-radius: 15px;
+}
+
+#mdp:hover, #mail:hover{
+    color: #FFFFFF;
+    background-color: #b3aca7;
+}
+
+#formlogin, .submit, .button{
+  width: 150px;
+  height: 30px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: black;
+  
+  outline:none;
+  cursor: pointer;
+  transition: all 0.7s ease 0s;
+  
+  border: solid 1px #b3aca7;
+  border-radius: 12px;
+}
+
+#formlogin:hover, .submit:hover, .register:hover, .champ:hover, .button:hover{
+    background-color: #b3aca7;
+    color:white;
+}
+
+.submit{
+    width: 130px;
+    border-radius: 10px;
+}
+
+.register, .champ{
+  width: 150px;
+  height: 30px;
+  
+  padding: 7px;
+  margin: 10px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: black;
+  
+  outline:none;
+  transition: all 0.7s ease 0s;
+  
+  border: solid 1px #b3aca7;
+  border-radius: 12px;
+}
+
+#mail_register{
+  width: 300px;
+  height: 30px;
+  
+  padding: 7px;
+  margin: 10px 0px 0px 0px;
+  
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: black;
+  
+  outline:none;
+  transition: all 0.7s ease 0s;
+  
+  border: solid 1px #b3aca7;
+  border-radius: 12px;
+}
+
+.regles{
+    text-align: left;
+    padding: 15px;
+}
+
+
+
+.table {
+    color:red;
+    border-width:1px; 
+    border-style:solid; 
+    border-color:red;
+    background-color:red;
+height:1000px;
+ width:1000px
+    
+}
+.table .td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:red;
+ background-color:white;
+ height:100px;
+ width:100px
+ }
+ 
+.table .td .pion { 
+ height:100px;
+ width:100px;
+
+
+ }
+ 
+ .table .td .bouton { 
+ height:100px;
+ width:100px;
+ border-width:0px;
+ 
+ }
+ 
+ /*
+ .table .c1{
+     background-color: yellow;
+ } */
+
+.classement {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #f1f1f1;
+
+}
+.classement .td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+}
